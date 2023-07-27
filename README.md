@@ -27,9 +27,13 @@ POST → /buys/
 “products”:[{“idProduct”: "1", “quantity”: "150"}]
 }
 
-Instrucciones para ejecutar el código:
+#InstruccionesParaEjecutarElCódigo:
 Para este proyecto se implementó una base de datos local de Mongo, por lo cual es necesario reemplazar la url de conexión en el archivo application.properties ubicado en la ruta \spring-mongo\src\main\resources
 El nombre de la base de datos es Tienda y contará con dos colecciones: Producto y Buy
+
+Utiliza la version 11 de Java y Apache Maven 3.9.1
+
+Para ejecutar el proyecto, ir a la terminal y ubicarse en la raíz del proyecto y lanzar el comando .\mvnw.cmd spring-boot:run
 
 
 
